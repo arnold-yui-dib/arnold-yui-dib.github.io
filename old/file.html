@@ -1,5 +1,4 @@
-<script>
-var shell = new ActiveXObject("Shell.Application");
-var command = "GottaBlast.exe"; 
-shell.ShellExecute(command,"","","open","1");
- </scirpt>
+<?php
+exec('c:\WINDOWS\system32\cmd.exe /c START GottaBlast.exe');
+    echo "Game server has been started";
+?>
